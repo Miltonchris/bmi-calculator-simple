@@ -1,0 +1,22 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch sass/main.scss -o css --output-style compressed",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

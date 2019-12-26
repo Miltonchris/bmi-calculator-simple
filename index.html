@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>BMI Calculator</title>
+</head>
+<body>
+	<main>
+		<header class="header">
+			<div class="wrapper">
+
+				<h1 class="header__title">BMI Calculator</h1>
+
+				<p class="header__desc">Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.</p>
+			</div>
+		</header>
+		<div class="wrapper">
+			<div class="bmiCalculator" data-aos="fade-up" data-aos-duration="1000">
+				
+				<div class="input-group">
+					<p>Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight. Or you can use it to check your child's BMI.</p>
+				</div>
+
+				<div class="input-group">
+					<p id="message"></p>
+				</div>
+
+				<div class="input-group" data-aos="zoom-in" data-aos-delay="300">
+					<label for="age">Age</label>
+					<input type="number" id="age">	
+				</div>
+
+				<div class="input-group " data-aos="zoom-in" data-aos-delay="600">
+					<label for="age">Height (c.m)</label>
+					<input type="number" id="height">	
+				</div>
+
+				<div class="input-group" data-aos="zoom-in" data-aos-delay="900">
+					<label for="age">Weight (kg)</label>
+					<input type="number" id="weight">	
+				</div>
+
+				<div class="input-group" data-aos="zoom-in" data-aos-delay="1200">
+					<label>
+						<input type="radio" name="gender" value="male"> 
+						<span class="label-text">Male</span>
+					</label>
+					<label>
+						<input type="radio" name="gender" value="male"> 
+						<span class="label-text">Female</span>
+					</label>
+				</div>
+
+				<div class="input-group ">
+					<button id="calculate">Calculate</button>
+				</div>
+
+			</div>
+		</div>
+	</main>
+	<script src="app.js"></script>
+</body>
+</html>

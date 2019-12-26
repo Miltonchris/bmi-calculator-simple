@@ -1,0 +1,27 @@
+html  {
+	font-size: 62.5%;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1;
+	box-sizing: border-box;
+}
+
+
+.header {
+	text-align: center;
+	&__title {
+		font-size: 5.8rem;
+		font-weight: 600;
+		margin: 0 0 5rem;
+	}
+
+	&__desc {
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+
+}
